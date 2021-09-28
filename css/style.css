@@ -1,0 +1,424 @@
+@font-face {
+  font-family: dana;
+  font-style: normal;
+  font-weight: 10;
+  src: url("../fonts/eot/dana-thin.eot");
+  src: url("../fonts/eot/dana-thin.eot?#iefix") format("embedded-opentype"), url("../fonts/woff2/dana-thin.woff2") format("woff2"), url("../fonts/woff/dana-thin.woff") format("woff");
+  /* FF3.6+, IE9, Chrome6+, Saf5.1+*/
+}
+
+@font-face {
+  font-family: dana;
+  font-style: normal;
+  font-weight: 200;
+  src: url("../fonts/eot/dana-extralight.eot");
+  src: url("../fonts/eot/dana-extralight.eot?#iefix") format("embedded-opentype"), url("../fonts/woff2/dana-extralight.woff2") format("woff2"), url("../fonts/woff/dana-extralight.woff") format("woff");
+  /* FF3.6+, IE9, Chrome6+, Saf5.1+*/
+}
+
+@font-face {
+  font-family: dana;
+  font-style: normal;
+  font-weight: 300;
+  src: url("../fonts/eot/dana-light.eot");
+  src: url("../fonts/eot/dana-light.eot?#iefix") format("embedded-opentype"), url("../fonts/woff2/dana-light.woff2") format("woff2"), url("../fonts/woff/dana-light.woff") format("woff");
+  /* FF3.6+, IE9, Chrome6+, Saf5.1+*/
+}
+
+@font-face {
+  font-family: dana;
+  font-style: normal;
+  font-weight: 500;
+  src: url("../fonts/eot/dana-medium.eot");
+  src: url("../fonts/eot/dana-medium.eot?#iefix") format("embedded-opentype"), url("../fonts/woff2/dana-medium.woff2") format("woff2"), url("../fonts/woff/dana-medium.woff") format("woff");
+  /* FF3.6+, IE9, Chrome6+, Saf5.1+*/
+}
+
+@font-face {
+  font-family: dana;
+  font-style: normal;
+  font-weight: 600;
+  src: url("../fonts/eot/dana-demibold.eot");
+  src: url("../fonts/eot/dana-demibold.eot?#iefix") format("embedded-opentype"), url("../fonts/woff2/dana-demibold.woff2") format("woff2"), url("../fonts/woff/dana-demibold.woff") format("woff");
+  /* FF3.6+, IE9, Chrome6+, Saf5.1+*/
+}
+
+@font-face {
+  font-family: dana;
+  font-style: normal;
+  font-weight: 750;
+  src: url("../fonts/eot/dana-ultrabold.eot");
+  src: url("../fonts/eot/dana-ultrabold.eot?#iefix") format("embedded-opentype"), url("../fonts/woff2/dana-ultrabold.woff2") format("woff2"), url("../fonts/woff/dana-ultrabold.woff") format("woff");
+  /* FF3.6+, IE9, Chrome6+, Saf5.1+*/
+}
+
+@font-face {
+  font-family: dana;
+  font-style: normal;
+  font-weight: 800;
+  src: url("../fonts/eot/dana-extrabold.eot");
+  src: url("../fonts/eot/dana-extrabold.eot?#iefix") format("embedded-opentype"), url("../fonts/woff2/dana-extrabold.woff2") format("woff2"), url("../fonts/woff/dana-extrabold.woff") format("woff");
+  /* FF3.6+, IE9, Chrome6+, Saf5.1+*/
+}
+
+@font-face {
+  font-family: dana;
+  font-style: normal;
+  font-weight: 900;
+  src: url("../fonts/eot/dana-black.eot");
+  src: url("../fonts/eot/dana-black.eot?#iefix") format("embedded-opentype"), url("../fonts/woff2/dana-black.woff2") format("woff2"), url("../fonts/woff/dana-black.woff") format("woff");
+  /* FF3.6+, IE9, Chrome6+, Saf5.1+*/
+}
+
+@font-face {
+  font-family: dana;
+  font-style: normal;
+  font-weight: bold;
+  src: url("../fonts/eot/dana-bold.eot");
+  src: url("../fonts/eot/dana-bold.eot?#iefix") format("embedded-opentype"), url("../fonts/woff2/dana-bold.woff2") format("woff2"), url("../fonts/woff/dana-bold.woff") format("woff");
+  /* FF3.6+, IE9, Chrome6+, Saf5.1+*/
+}
+
+@font-face {
+  font-family: dana;
+  font-style: normal;
+  font-weight: normal;
+  src: url("../fonts/eot/dana-regular.eot");
+  src: url("../fonts/eot/dana-regular.eot?#iefix") format("embedded-opentype"), url("../fonts/woff2/dana-regular.woff2") format("woff2"), url("../fonts/woff/dana-regular.woff") format("woff");
+  /* FF3.6+, IE9, Chrome6+, Saf5.1+*/
+}
+
+/**
+  Iranic fonts	
+  **/
+@font-face {
+  font-family: dana;
+  font-style: italic;
+  font-weight: 10;
+  src: url("../fonts/eot/dana-thinitalic.eot");
+  src: url("../fonts/eot/dana-thinitalic.eot?#iefix") format("embedded-opentype"), url("../fonts/woff2/dana-thinitalic.woff2") format("woff2"), url("../fonts/woff/dana-thinitalic.woff") format("woff");
+  /* FF3.6+, IE9, Chrome6+, Saf5.1+*/
+}
+
+@font-face {
+  font-family: dana;
+  font-style: italic;
+  font-weight: 200;
+  src: url("../fonts/eot/dana-extralightitalic.eot");
+  src: url("../fonts/eot/dana-extralightitalic.eot?#iefix") format("embedded-opentype"), url("../fonts/woff2/dana-extralightitalic.woff2") format("woff2"), url("../fonts/woff/dana-extralightitalic.woff") format("woff");
+  /* FF3.6+, IE9, Chrome6+, Saf5.1+*/
+}
+
+@font-face {
+  font-family: dana;
+  font-style: italic;
+  font-weight: 300;
+  src: url("../fonts/eot/dana-lightitalic.eot");
+  src: url("../fonts/eot/dana-lightitalic.eot?#iefix") format("embedded-opentype"), url("../fonts/woff2/dana-lightitalic.woff2") format("woff2"), url("../fonts/woff/dana-lightitalic.woff") format("woff");
+  /* FF3.6+, IE9, Chrome6+, Saf5.1+*/
+}
+
+@font-face {
+  font-family: dana;
+  font-style: italic;
+  font-weight: 500;
+  src: url("../fonts/eot/dana-mediumitalic.eot");
+  src: url("../fonts/eot/dana-mediumitalic.eot?#iefix") format("embedded-opentype"), url("../fonts/woff2/dana-mediumitalic.woff2") format("woff2"), url("../fonts/woff/dana-mediumitalic.woff") format("woff");
+  /* FF3.6+, IE9, Chrome6+, Saf5.1+*/
+}
+
+@font-face {
+  font-family: dana;
+  font-style: italic;
+  font-weight: 600;
+  src: url("../fonts/eot/dana-demibolditalic.eot");
+  src: url("../fonts/eot/dana-demibolditalic.eot?#iefix") format("embedded-opentype"), url("../fonts/woff2/dana-demibolditalic.woff2") format("woff2"), url("../fonts/woff/dana-demibolditalic.woff") format("woff");
+  /* FF3.6+, IE9, Chrome6+, Saf5.1+*/
+}
+
+@font-face {
+  font-family: dana;
+  font-style: italic;
+  font-weight: 750;
+  src: url("../fonts/eot/dana-ultrabolditalic.eot");
+  src: url("../fonts/eot/dana-ultrabolditalic.eot?#iefix") format("embedded-opentype"), url("../fonts/woff2/dana-ultrabolditalic.woff2") format("woff2"), url("../fonts/woff/dana-ultrabolditalic.woff") format("woff");
+  /* FF3.6+, IE9, Chrome6+, Saf5.1+*/
+}
+
+@font-face {
+  font-family: dana;
+  font-style: italic;
+  font-weight: 800;
+  src: url("../fonts/eot/dana-extrabolditalic.eot");
+  src: url("../fonts/eot/dana-extrabolditalic.eot?#iefix") format("embedded-opentype"), url("../fonts/woff2/dana-extrabolditalic.woff2") format("woff2"), url("../fonts/woff/dana-extrabolditalic.woff") format("woff");
+  /* FF3.6+, IE9, Chrome6+, Saf5.1+*/
+}
+
+@font-face {
+  font-family: dana;
+  font-style: italic;
+  font-weight: 900;
+  src: url("../fonts/eot/dana-blackitalic.eot");
+  src: url("../fonts/eot/dana-blackitalic.eot?#iefix") format("embedded-opentype"), url("../fonts/woff2/dana-blackitalic.woff2") format("woff2"), url("../fonts/woff/dana-blackitalic.woff") format("woff");
+  /* FF3.6+, IE9, Chrome6+, Saf5.1+*/
+}
+
+@font-face {
+  font-family: dana;
+  font-style: italic;
+  font-weight: bold;
+  src: url("../fonts/eot/dana-bolditalic.eot");
+  src: url("../fonts/eot/dana-bolditalic.eot?#iefix") format("embedded-opentype"), url("../fonts/woff2/dana-bolditalic.woff2") format("woff2"), url("../fonts/woff/dana-bolditalic.woff") format("woff");
+  /* FF3.6+, IE9, Chrome6+, Saf5.1+*/
+}
+
+@font-face {
+  font-family: dana;
+  font-style: italic;
+  font-weight: normal;
+  src: url("../fonts/eot/dana-regularitalic.eot");
+  src: url("../fonts/eot/dana-regularitalic.eot?#iefix") format("embedded-opentype"), url("../fonts/woff2/dana-regularitalic.woff2") format("woff2"), url("../fonts/woff/dana-regularitalic.woff") format("woff");
+  /* FF3.6+, IE9, Chrome6+, Saf5.1+*/
+}
+
+/* Function for PX to REM */
+main .content {
+  padding-top: 90px;
+  padding-bottom: 50px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+@media only screen and (max-width: 992px) {
+  main .content {
+    padding-top: 50px;
+  }
+}
+
+@media only screen and (max-width: 992px) {
+  main .content {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: reverse;
+        -ms-flex-direction: column-reverse;
+            flex-direction: column-reverse;
+  }
+}
+
+main .content .left {
+  width: 450px;
+}
+
+@media only screen and (max-width: 992px) {
+  main .content .left {
+    width: 100%;
+    margin-bottom: 50px;
+  }
+}
+
+main .content .left .left_content {
+  width: 100%;
+  position: -webkit-sticky;
+  position: sticky;
+  left: 0;
+  top: 0px;
+}
+
+main .content .left .title {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+@media only screen and (max-width: 450px) {
+  main .content .left .title {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: reverse;
+        -ms-flex-direction: column-reverse;
+            flex-direction: column-reverse;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+}
+
+main .content .left .title h1 {
+  font-weight: bold;
+  font-size: 40px;
+  color: #3e3e3e;
+  margin-bottom: -16px;
+}
+
+@media only screen and (max-width: 450px) {
+  main .content .left .title h1 {
+    margin-top: 20px;
+    font-size: 33px;
+  }
+}
+
+main .content .left p {
+  font-size: 15px;
+  line-height: 53px;
+  color: #3e3e3e;
+  text-align: justify;
+}
+
+main .content .left .btns {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  margin-top: 40px;
+}
+
+main .content .left .btns a,
+main .content .left .btns button {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  height: 52px;
+  width: 100%;
+  text-align: center;
+  background-color: #343333;
+  color: #ffffff;
+  margin-bottom: 20px;
+  border-radius: 4px;
+  -webkit-border-radius: 4px;
+  -moz-border-radius: 4px;
+  -ms-border-radius: 4px;
+  -o-border-radius: 4px;
+  font-weight: 600;
+  font-size: 18px;
+}
+
+@media only screen and (max-width: 360px) {
+  main .content .left .btns a,
+  main .content .left .btns button {
+    font-size: 15px;
+  }
+}
+
+main .content .right {
+  width: 394px;
+}
+
+@media only screen and (max-width: 576px) {
+  main .content .right {
+    width: 100%;
+  }
+}
+
+main .content .right .project_name {
+  margin-bottom: 28px;
+}
+
+main .content .right .project_name label {
+  font-size: 16px;
+  color: #1c1c28;
+}
+
+main .content .right .project_name input {
+  text-align: right;
+  height: 38px;
+}
+
+main .content .right .check_list h6 {
+  font-weight: 600;
+  font-size: 16px;
+  color: #1c1c28;
+  margin-bottom: 21px;
+}
+
+main .content .right .check_list ul li {
+  margin-bottom: 20px;
+}
+
+main .content .right .check_list ul li label {
+  font-weight: 300;
+  font-size: 16px;
+  color: #1c1c28;
+}
+
+main .content .active_checkbox {
+  color: #7e7e7e !important;
+  position: relative;
+  text-decoration: line-through;
+}
+
+@media print {
+  main .content {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: reverse;
+        -ms-flex-direction: column-reverse;
+            flex-direction: column-reverse;
+  }
+  main .content .left {
+    width: 100%;
+  }
+  main .content .left .title {
+    margin-bottom: 30px;
+  }
+  main .content .left p {
+    display: none;
+  }
+  main .content .left .btns {
+    display: none;
+  }
+}
+
+body {
+  font-size: 15px;
+  font-family: Dana;
+  direction: rtl;
+}
+
+a {
+  text-decoration: none;
+  display: inline-block;
+}
+
+* {
+  font-family: Dana;
+}
+
+ul {
+  padding: 0;
+  list-style: none;
+}
+
+input,
+button,
+textarea,
+select {
+  outline: none;
+}
+
+a {
+  display: inline-block;
+}
+
+button {
+  background-color: transparent;
+  border: none;
+  padding: 0;
+  cursor: pointer;
+}
+/*# sourceMappingURL=style.css.map */

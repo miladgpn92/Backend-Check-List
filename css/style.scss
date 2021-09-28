@@ -1,0 +1,43 @@
+@import "./font";
+@import "./mixins";
+@import "./variable";
+
+@import "./index";
+
+body {
+  font-size: $font_size;
+  font-family: $font_family;
+  direction: rtl;
+}
+
+a {
+  text-decoration: none;
+  display: inline-block;
+}
+
+* {
+  font-family: $font_family;
+}
+
+ul {
+  padding: 0;
+  list-style: none;
+}
+input,
+button,
+textarea,
+select {
+  outline: none;
+}
+
+a {
+  display: inline-block;
+}
+
+button {
+  background-color: transparent;
+  border: none;
+  padding: 0;
+  cursor: pointer;
+}
+

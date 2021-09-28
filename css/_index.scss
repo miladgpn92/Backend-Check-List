@@ -1,0 +1,155 @@
+main {
+  .content {
+    padding-top: 90px;
+    padding-bottom: 50px;
+    display: flex;
+    justify-content: space-between;
+
+    @include mq(992) {
+      padding-top: 50px;
+    }
+
+    @include mq(992) {
+      flex-direction: column-reverse;
+    }
+
+    .left {
+      width: 450px;
+      @include mq(992) {
+        width: 100%;
+        margin-bottom: 50px;
+      }
+
+      .left_content {
+        width: 100%;
+        position: sticky;
+        left: 0;
+        top: 0px;
+      }
+
+      .title {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+
+        @include mq(450) {
+          flex-direction: column-reverse;
+          align-items: center;
+        }
+        h1 {
+          font-weight: bold;
+          font-size: 40px;
+          color: $dark500;
+          margin-bottom: -16px;
+
+          @include mq(450) {
+            margin-top: 20px;
+            font-size: 33px;
+          }
+        }
+      }
+      p {
+        font-size: 15px;
+        line-height: 53px;
+        color: $dark500;
+        text-align: justify;
+      }
+
+      .btns {
+        display: flex;
+        flex-direction: column;
+        margin-top: 40px;
+
+        a,
+        button {
+          display: flex;
+          align-items: center;
+          justify-content: center;
+          height: 52px;
+          width: 100%;
+          text-align: center;
+          background-color: $dark700;
+          color: $white;
+          margin-bottom: 20px;
+          border-radius: 4px;
+          -webkit-border-radius: 4px;
+          -moz-border-radius: 4px;
+          -ms-border-radius: 4px;
+          -o-border-radius: 4px;
+          font-weight: 600;
+          font-size: 18px;
+
+          @include mq(360) {
+            font-size: 15px;
+          }
+        }
+      }
+    }
+
+    .right {
+      width: 394px;
+
+      @include mq(576) {
+        width: 100%;
+      }
+      .project_name {
+        margin-bottom: 28px;
+        label {
+          font-size: 16px;
+          color: $dark800;
+        }
+        input {
+          text-align: right;
+          height: 38px;
+        }
+      }
+
+      .check_list {
+        h6 {
+          font-weight: 600;
+          font-size: 16px;
+          color: $dark800;
+          margin-bottom: 21px;
+        }
+
+        ul {
+          li {
+            margin-bottom: 20px;
+            label {
+              font-weight: 300;
+              font-size: 16px;
+              color: $dark800;
+            }
+          }
+        }
+      }
+    }
+
+    .active_checkbox {
+      color: $gray500 !important;
+      position: relative;
+      text-decoration: line-through;
+    }
+  }
+}
+
+@media print {
+  main {
+    .content {
+      flex-direction: column-reverse;
+      .left {
+        width: 100%;
+        .title{
+          margin-bottom: 30px;
+        }
+        p {
+          display: none;
+        }
+
+        .btns {
+          display: none;
+        }
+      }
+    }
+  }
+}
